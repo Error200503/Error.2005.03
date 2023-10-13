@@ -5,7 +5,6 @@
 # License    : MIT
 # Copyright  : ERROR.2005.03 (2021-2023)
 # Github     : https://github.com/Error200503
-# Contact    : https://t.me/error_2005_03
 # Description: PyPhisher is a phishing tool in python
 # Tags       : Facebook Phishing, Github Phishing, Instagram Phishing and 70+ other sites available
 # 1st Commit : 08/08/2021
