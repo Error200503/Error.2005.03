@@ -944,17 +944,17 @@ def saved():
 # Info about tool
 def about():
     clear()
-print(f"{red}{yellow}[{purple}ToolName{yellow}] {cyan}: {yellow}[{green}\x50\x79\x50\x68\x69\x73\x68\x65\x72{yellow}] ")
-print(f"{red}{yellow}[{purple}Version{yellow}] {cyan}: {yellow}[{green}{version}{yellow}] ")
-print(f"{red}{yellow}[{purple}Author{yellow}] {cyan}: {yellow}[{green}\69\114\114\111\114\46\50\48\48\53\46\48\51{yellow}] ")
-print(f"{red}{yellow}[{purple}Github{yellow}] {cyan}: {yellow}[{green}https://github.com/\69\114\114\111\114\46\50\48\48\53\46\48\51{purple}{yellow}] ")
-print(f"{red}{yellow}[{purple}Messenger{yellow}] {cyan}: {yellow}[{green}https://m.me/\69\114\114\111\114\46\50\48\48\53\46\48\51{yellow}] ")
-print(f"{red}{yellow}[{purple}Telegram {yellow}] {cyan}: {yellow}[{green}https://t.me/\69\114\114\111\114\95\50\48\48\53\95\48\51{yellow}] ")
-print(f"{red}{yellow}[{purple}Email{yellow}] {cyan}: {yellow}[{green}\99\114\101\97\116\105\118\101\119\111\114\108\100\46\118\101\100\105\111\64\103\109\97\105\108\46\99\111\109/{yellow}] ")
-print(f"\n{green}[{white}0{green}]{yellow}Exit {green}[{white}x{green}]{yellow}Main Menu \n")
-inp=input(f"\n{ask}Choose your option: {green}")
-ifinp=="0":
-pexit()
+    print(f"{red}{yellow}[{purple}ToolName{yellow}] {cyan}: {yellow}[{green}\x50\x79\x50\x68\x69\x73\x68\x65\x72{yellow}] ")
+    print(f"{red}{yellow}[{purple}Version{yellow}] {cyan}: {yellow}[{green}{version}{yellow}] ")
+    print(f"{red}{yellow}[{purple}Author{yellow}] {cyan}: {yellow}[{green}\69\114\114\111\114\46\50\48\48\53\46\48\51{yellow}] ")
+    print(f"{red}{yellow}[{purple}Github{yellow}] {cyan}: {yellow}[{green}https://github.com/\69\114\114\111\114\46\50\48\48\53\46\48\51{purple}{yellow}] ")
+    print(f"{red}{yellow}[{purple}Messenger{yellow}] {cyan}: {yellow}[{green}https://m.me/\69\114\114\111\114\46\50\48\48\53\46\48\51{yellow}] ")
+    print(f"{red}{yellow}[{purple}Telegram {yellow}] {cyan}: {yellow}[{green}https://t.me/\69\114\114\111\114\95\50\48\48\53\95\48\51{yellow}] ")
+    print(f"{red}{yellow}[{purple}Email{yellow}] {cyan}: {yellow}[{green}\99\114\101\97\116\105\118\101\119\111\114\108\100\46\118\101\100\105\111\64\103\109\97\105\108\46\99\111\109/{yellow}] ")
+    print(f"\n{green}[{white}0{green}]{yellow}Exit {green}[{white}x{green}]{yellow}Main Menu \n")
+    inp=input(f"\n{ask}Choose your option: {green}")
+    if inp=="0":
+        pexit()
 else:
 return
 
