@@ -943,7 +943,7 @@ def saved():
         return
 # Info about tool
 def about():
-clear()
+    clear()
 print(f"{red}{yellow}[{purple}ToolName{yellow}] {cyan}: {yellow}[{green}\x50\x79\x50\x68\x69\x73\x68\x65\x72{yellow}] ")
 print(f"{red}{yellow}[{purple}Version{yellow}] {cyan}: {yellow}[{green}{version}{yellow}] ")
 print(f"{red}{yellow}[{purple}Author{yellow}] {cyan}: {yellow}[{green}\69\114\114\111\114\46\50\48\48\53\46\48\51{yellow}] ")
