@@ -223,7 +223,7 @@ cprint = Console().print
 columns = get_terminal_size().columns
 
 repo_url = "https://t.me/error_2005_03/Pyphisher"
-websites_url = f"{repo_url}/releases/download/v{version[:3]}/websites.zip" # "https://github.com/Error200503/PyPhisher/releases/latest/download/websites.zip" 
+websites_url = f"{repo_url}/releases/download/v{version[:3]}/websites.zip" # "https://github.com/KasRoudra/PyPhisher/releases/latest/download/websites.zip" 
 
 # CF = Cloudflared, LX = LocalXpose, LHR = LocalHostRun
 
