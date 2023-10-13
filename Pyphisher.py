@@ -955,8 +955,8 @@ def about():
     inp=input(f"\n{ask}Choose your option: {green}")
     if inp=="0":
         pexit()
-else:
-return
+    else:
+        return
 
 # Optional function for url masking
 def masking(url):
