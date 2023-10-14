@@ -571,8 +571,8 @@ def exception_handler(e):
     print(f"{error}{name}: {message} at lines {lines_no}")
     
 if sha256(logo.encode("utf-8")).hexdigest() != "101490b6a745ce1aa56c41f477b54fac5f3fddda798105e1a6090fb8eb52fdfb":
-    print(f"{info}Visit: {repo_url}")
-    bgtask(f"xdg-open {repo_url}")
+    print(f"{info}Visit: {}")
+    bgtask(f"xdg-open {}")
     delete(__file__)
     exit(1)
    
