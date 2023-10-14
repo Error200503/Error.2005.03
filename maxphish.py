@@ -571,12 +571,8 @@ def exception_handler(e):
     print(f"{error}{name}: {message} at lines {lines_no}")
     
 if sha256(logo.encode("utf-8")).hexdigest() != "101490b6a745ce1aa56c41f477b54fac5f3fddda798105e1a6090fb8eb52fdfb":
-    print(f"{info}Visit: {}")
-    bgtask(f"xdg-open {}")
-    delete(__file__)
-    exit(1)
-   
-# Website chooser
+  
+ # Website chooser
 def show_options(sites, is_main=True, is_login=False):
     total_sites = len(sites)
     def optioner(index, max_len):
