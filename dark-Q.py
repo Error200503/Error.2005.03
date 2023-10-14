@@ -128,7 +128,7 @@ logo = f"""
 {blue}| | | |  _  ||    /|    \______/   \  / _ \ 
 {blue}| |/ /| | | || |\ \| |\  \    / /^\ \| |_| |
 {blue}|___/ \_| |_/\_| \_\_| \_/    \/   \/\_____/
-{red}{" "*35}         [{blue}v{version[:7]}{yellow}]
+{red}{" "*35}         [{blue}v{version[:17]}{yellow}]
 {cyan}{" "*36}[{blue}By {red}Error.2005.03{cyan}]
 """
 
