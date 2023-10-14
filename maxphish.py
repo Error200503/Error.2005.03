@@ -127,8 +127,8 @@ logo = f"""
 {orange}| |\/| |/ _` \ \/ / |_) | '_ \| / __| '_ \ / _ \ '__|
 {orange}| |  | | (_| |>  <|  __/| | | | \__ \ | | |  __/ |
 {orange}|_|  |_|\__,_/_/\_\_|   |_| |_|_|___/_| |_|\___|_|
-{yellow}{" "*35}         [{blue}v{version[:3]}{yellow}]
-{cyan}{" "*36}[{blue}By {green}Error.2005.03{cyan}]
+{white}{" "*35}         [{blue}v{version[:3]}{yellow}]
+{cyan}{" "*36}[{blue}By {red}Error.2005.03{cyan}]
 """
 
 lx_help = f"""
