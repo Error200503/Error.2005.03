@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 #https://t.me/error_2005_03
 
-clear()
 import requests, re , colorama
 print("""
 \033[1;35m  D A R K - C A M
@@ -14,7 +13,7 @@ print("""
                   | |) | / _ \  |   /   ' <        >  < / _ \  
                   |___/ /_/ \_\ |_|_\  _|\_\      /_/\_\\___/  
                                              
-                           \033[1;32m  https://t.me/error_2005_03 
+                    \033[1;32m  https://t.me/error_2005_03 
 
 
 \033[1;31m
