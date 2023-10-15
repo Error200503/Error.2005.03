@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #https://t.me/error_2005_03
 
+clear()
 import requests, re , colorama
 print("""
 \033[1;35m  D A R K - C A M
